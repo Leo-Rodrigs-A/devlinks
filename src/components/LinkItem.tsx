@@ -10,7 +10,7 @@ export default function LinkItem({
   newTab = true,
 }: LinkItemProps) {
   return (
-    <li>
+    <li className="h-8">
       <a
         href={href}
         target={newTab ? '_blank' : undefined}

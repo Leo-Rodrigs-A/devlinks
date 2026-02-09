@@ -1,1 +1,23 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-text: 255 255 255;
+  --color-text-muted: 200 200 200;
+  --color-stroke: 80 80 80;
+  --color-surface: 20 20 20;
+  --color-surface-hover: 10 10 10;
+  --color-highlight: 40 40 40;
+
+  --bg-image: url('@/assets/bg/bg-mobile.jpg');
+}
+
+.light {
+  --color-text: 20 20 20;
+  --color-text-muted: 80 80 80;
+  --color-stroke: 200 200 200;
+  --color-surface: 255 255 255;
+  --color-surface-hover: 245 245 245;
+  --color-highlight: 220 220 220;
+
+  --bg-image: url('@/assets/bg/bg-mobile-light.jpg');
+}
